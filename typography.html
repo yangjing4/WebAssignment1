@@ -1,0 +1,195 @@
+<html>
+   <head>
+       <title>Typography</title>
+       <style type="text/css">
+       .title{
+        margin-left:20px;
+        font-size:20px;
+        font-weight:bolder;
+       }
+
+           .main_left{
+                margin-top:5px;
+                margin-left:20px;
+                margin-bottom: 20px;
+                width:33%;
+                float:left;
+                height: 200px;
+           }  
+           .main_center{
+
+                margin-left:20px;
+                margin-bottom: 20px;
+                width:33%;
+                float:left;
+                height: 200px;
+                
+           }
+           .main_right{
+                margin-top:10px;
+                margin-bottom: 20px;
+                width:30%;
+                float:left;
+                height: 200px;
+                
+           }
+           .top{
+                padding: 30px 20px 50px 20px;
+                font-size: 15px;
+                background-color:  #CBEFF8;
+
+               
+           }
+           .a{
+            
+            font-size: 17px;
+            line-height: 45px;
+
+           }
+           .b{
+            padding: 0px 20px 60px 20px;
+            font-size: 15px;
+            font-style:italic;
+            color:darkgray;
+
+           }
+           .demo_line_01{
+            margin: 20px 20px 20px 20px;
+            line-height: 10px;
+            text-align: center;
+            color:darkgray;
+           }
+           .c{
+            list-style:disc;
+            list-style-position:outside;
+           }
+           .d{
+            list-style:decimal;
+            list-style-position:outside;
+           }
+           .e{
+            list-style:none;
+            
+            list-style-position:outside;
+            
+
+           }
+           .f{
+            list-style:none;
+            list-style-position:outside;
+           }
+
+       </style>
+       
+
+
+   </head>
+   <body>
+        <div class = "title">PARAGRAPHS & BOXES</div>
+       <div class = "main_left">
+           <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+           </p>
+           
+       </div>
+       <div class = "main_center">
+           <p>
+              <h5>
+              <div style="line-height:20px">
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </div></h5>
+      
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        </p>
+        
+       </div>
+       <div class = "main_right">
+           <div class = "top">
+
+            Aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+       </div>
+       <div class = "main_left">
+            <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <span style="vertical-align:sub; font-size:11px">sub text</span> ut labore et <span style="vertical-align:super; font-size:11px"> sup text </span> magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                   </p>
+       </div>
+       <div class = "main_center">
+           <div class = "a">
+                Lorem ipsum dolor sit amet, consectetur
+           </div>
+           <div class = "a">
+                adipiscing elit, sed do eiusmod tempor incididunt
+        </div>
+        <div class = "a">
+                ut labore et dolore magna aliqua. 
+        </div>
+       </div>
+       <div class = "main_right">
+           <div class = "b">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+           </div>
+
+       </div>
+       <div class = "demo_line_01">
+            ————————————————————————————————————————————————————————————————————————————
+       </div>
+       <div class = "title">LISTS</div>
+       <div class = "main_left">
+           <ul class = "c">
+           <li>Unordered list test</li>
+           <li>Another list element. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+           <li>Yet another element in the list</li>
+           <li>Some long text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+           </ul>
+           <ul class = "d">
+               <li>Ordered list test</li>
+               <li>Another list element</li>
+           </ul>
+    </div>
+    <div class = "main_left">
+            <ul class = "d">
+                    <li>Ordered list</li>
+                    <li>Here's a nested unordered list</li>
+                    <ul class = "c">
+                        <li>Nested unordered list</li>
+                        <li>Nested ordered list</li>
+                        <ul class = "d">
+                            <li>The first</li>
+                            <li>And the second</li>
+                        </ul>
+                    </ul>
+                    <li>Ordered List item</li>
+                    <li>Nested Ordered list</li>
+                    <ul class = "d">
+                        <li>Some point</li>
+                        <li>Nested Unordered list</li>
+                    </ul>
+                </ul>
+    </div>
+    <div class = "main_right">
+        <ul class = "e">
+            <strong>definition list dt</strong>
+            <ul class = "f">
+                <li>definition list add</li>
+            </ul>
+            <strong>definition list dt</strong>
+                <ul class = "f">
+                    <li>definition list add</li>
+                </ul>
+                <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit</strong>
+                <ul class = "f">
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                </ul>
+                <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit</strong>
+        </ul>
+        
+                
+       
+        
+    </div>
+
+       
+   </body>
+
+</html>

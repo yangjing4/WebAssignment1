@@ -1,0 +1,100 @@
+<html>
+        <head>
+            <style type = "text/css">
+                #header {
+                background-color:black;
+                color:white;
+                text-align:center;
+                padding:5px;
+                }
+               .a{
+                margin:30px 0px 0px 200px;
+                padding:30px 30px;
+                overflow: auto;
+                float:left;
+                width:30%;
+                border:0px solid #000;  
+               }
+               .b{
+                margin:30px 200px 0px 0px;
+                padding:30px 30px;
+                overflow: auto;
+                float:right;
+                width:30%;
+                border:0px solid #000;  
+               }
+               
+            </style>
+    
+            
+        </head>
+    <body>
+        
+        <div id="header">
+        <h1>HOTEL RESERVATION FORM </h1>
+        </div>
+    
+        <div id="header1">
+        <p align="center"> An online hotel booking from to track your bookings easily and manage further reservations more accurate</p>
+        </div> 
+        
+        <div class = "a">
+                <strong> First Name*</strong><br>
+                <input type="text", name="firstname" required><br>
+                <span class="error" aria-live="polite"></span>
+                <strong>Email*</strong><br>           
+                <input type="email", name="ea" required><br>
+                <span class="error" aria-live="polite"></span>
+                <strong>Country*</strong><br>
+                <input type="text", name="country"required><br>
+                 <span class="error" aria-live="polite"></span>
+                <strong>Address*</strong><br>
+                <input type="text", name="address"required><br>
+                 <span class="error" aria-live="polite"></span>
+                <strong>Check-In Date*</strong><br>
+                <input type="date", name="Check-In  Date" required><br>
+                <label for="Accomodation type"><strong>Accomodation type*</strong> </label><br>
+               <label for="Meal Plan">
+                <select name="Accomodation type" id="Accomodation type">
+                <option>HOTEL</option>
+               <option>MOTEL</option>
+               <option>R&B</option>
+                </select>
+                <br><strong>Meal Plan* </strong></label><br>
+                <select name="Meal Plan" id="Meal Plan*">
+                  <option>Month</option>
+                  <option>Season</option>
+                  <option>Year</option>
+                </select><br>
+                <label for="Additional Requests"><strong>Additional Requests</strong> </label><br>
+                <input type="text", name="ar" required>
+        </div>
+        <div class = "b"> <strong> Last Name*</strong><br>
+          <input type="text", name="lastname" required><br>
+          <strong> Phone Number*</strong><br>
+          <input type="text", name="phonenumber" required pattern="[0-9]{3}[ |-][0-9]{3}[ |-][0-9]{4}"><br>
+          <strong> City*</strong><br>
+          <input type="text", name="city" required><br>
+          <strong> Postal/Zip Code*</strong><br>
+          <input type="text", name="zc" required pattern="[0-9]{5}"><br>
+          <strong>Check-Out Date*</strong><br>
+          <input type="date", name="Check-Out Date" required><br>
+          <strong> Number of rooms*</strong><br>
+          <input type="number", name="roomnum" required><br>
+          <strong> Room type*</strong><br>
+          <select name="Room type" id="Room type*" required>
+                <option>Twin Room</option>
+                <option>Single Room</option>
+                <option>Family Room</option>
+          </select>
+          <br>
+          <strong> Pick up from Airport?*</strong><br>
+          <input type="radio", name="radio", id="b1", value="Yes">
+          <label for="b1">Yes</label>
+          <input type="radio", name="radio", id="b2", value="No">
+          <label for="b2">No</label><br>
+          <button>Submit</button>
+        </div>
+    
+    </body>
+    </html>
